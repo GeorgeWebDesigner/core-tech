@@ -5,25 +5,25 @@ const Portfolio = () => {
   
   const projects = [
     {
-      image: '/1.png',
+      image: '1.png',
       category: 'Mobile Application',
       title: 'AI Stylist app',
       description: 'Moda Meteor - Developed an AI-powered mobile application that curates personalized outfit recommendations based on weather conditions and user preferences, enhancing daily styling decisions.'
     },
     {
-      image: '/2.png',
+      image: '2.png',
       category: 'Web Application',
       title: 'Restaurant Booking System',
       description: 'Restaurant Efficiency System - Created a streamlined ordering application for waiters that sends selections directly to the bar, significantly reducing wait times and allowing staff to serve more tables efficiently.'
     },
     {
-      image: '/4.png',
+      image: '4.png',
       category: 'Web development',
       title: 'Grooming salon + shop',
       description: 'Pet Grooming Salon Platform - Designed a comprehensive web application featuring an intuitive pet supply store and integrated appointment booking system that simplifies the customer experience.'
     },
     {
-      image: '/3.png',
+      image: '3.png',
       category: 'Chat Bot Development',
       title: 'Freelancer Services Bot',
       description: 'Skill Spark Bot - Built a Telegram bot powered by GPT-4 that intelligently matches candidates with relevant job openings and employers with suitable contractors through advanced natural language processing.'
