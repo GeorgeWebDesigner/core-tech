@@ -60,7 +60,7 @@ const Header = () => {
         <nav className="navbar">
           <div className="logo-container" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
             <div className="logo-circle">
-              <img src="/logo.webp" alt="Core Tech Solutions Logo" className="logo-img" />
+              <img src="logo.webp" alt="Core Tech Solutions Logo" className="logo-img" />
             </div>
             <div className="logo-text">Core <span>Tech</span> Solutions</div>
           </div>
