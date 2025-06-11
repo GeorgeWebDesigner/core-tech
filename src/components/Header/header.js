@@ -64,7 +64,6 @@ const Header = () => {
             </div>
             <div className="logo-text">Core <span>Tech</span> Solutions</div>
           </div>
-          
           <ul className="nav-links">
             <li>
               <a 
