@@ -3,27 +3,30 @@ import React, { useState, useEffect } from 'react';
 const Portfolio = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
+  // Хелпер для получения пути к изображению
+  const getImagePath = (imageName) => `${process.env.PUBLIC_URL}/images/${imageName}`;
+  
   const projects = [
     {
-      image: '/1.png',
+      image: getImagePath('1.png'), // Универсальный путь
       category: 'Mobile Application',
       title: 'AI Stylist app',
       description: 'Moda Meteor - Developed an AI-powered mobile application that curates personalized outfit recommendations based on weather conditions and user preferences, enhancing daily styling decisions.'
     },
     {
-      image: '/2.png',
+      image: getImagePath('2.png'), // Универсальный путь
       category: 'Web Application',
       title: 'Restaurant Booking System',
       description: 'Restaurant Efficiency System - Created a streamlined ordering application for waiters that sends selections directly to the bar, significantly reducing wait times and allowing staff to serve more tables efficiently.'
     },
     {
-      image: '/4.png',
+      image: getImagePath('4.png'), // Универсальный путь
       category: 'Web development',
       title: 'Grooming salon + shop',
       description: 'Pet Grooming Salon Platform - Designed a comprehensive web application featuring an intuitive pet supply store and integrated appointment booking system that simplifies the customer experience.'
     },
     {
-      image: '/3.png',
+      image: getImagePath('3.png'), // Универсальный путь
       category: 'Chat Bot Development',
       title: 'Freelancer Services Bot',
       description: 'Skill Spark Bot - Built a Telegram bot powered by GPT-4 that intelligently matches candidates with relevant job openings and employers with suitable contractors through advanced natural language processing.'
